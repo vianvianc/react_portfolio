@@ -1,0 +1,20 @@
+[
+  {
+    "title": "React Developer",
+    "_type": "abouts",
+    "description": "I design and implement UI components for JavaScript web apps using the React library.",
+    "imgUrl": "./images/react_developer.png"
+  },
+  {
+    "title": "Backend Developer",
+    "_type": "abouts",
+    "description": "I design and configure servers, query the database, connect client with the content and bring in third party APIs. ",
+    "imgUrl": "./images/backend_developer.png"
+  },
+  {
+    "title": "Project Leader",
+    "_type": "abouts",
+    "description": "I can assign tasks, communicate with clients, manage time, connect people and parts of project together. ",
+    "imgUrl": "./images/project_leader.png"
+  }
+]

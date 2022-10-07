@@ -3,30 +3,32 @@ import { motion } from "framer-motion";
 import ReactTooltip from "react-tooltip";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { urlFor, client } from "../../client";
+
 import "./Skills.scss";
+import axios from "axios";
 
 const Skills = () => {
-  const [experiences, setExperiences] = useState([]);
+  const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"] | order(order asc)';
-    const skillsQuery = '*[_type == "skills"] | order(order asc)';
-
-    client.fetch(query).then((data) => {
-      setExperiences(data);
-    });
-
-    client.fetch(skillsQuery).then((data) => {
+    const query = "./Experience.json";
+    
+    const skillsQuery = "./Skills.json";
+    axios.get(skillsQuery).then(({ data }) => {
       setSkills(data);
+    });
+    axios.get(query).then(({ data }) => {
+      console.log(data);
+      setExperience(data);
     });
   }, []);
 
+  
   return (
     <>
       <h2 className="head-text">
-        <span>Skills</span> & <span>Experiences</span>
+        <span>Skills</span> & <span>Experience</span>
       </h2>
 
       <div className="app__skills-container">
@@ -42,21 +44,21 @@ const Skills = () => {
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <img src={skill.icon} alt={skill.name} />
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
           ))}
         </motion.div>
         <div className="app__skills-exp">
-          {experiences.map((experience) => (
+          {experience.map((experience) => (
             <motion.div className="app__skills-exp-item" key={experience.year}>
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
-                {experience.works.map((work) => (
-                  <>
+                {experience.works.map((work, index) => (
+                  <div key={index}>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
@@ -76,7 +78,7 @@ const Skills = () => {
                     >
                       {work.desc}
                     </ReactTooltip>
-                  </>
+                  </div>
                 ))}
               </motion.div>
             </motion.div>

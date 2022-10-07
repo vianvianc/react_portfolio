@@ -1,17 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import axios from "axios";
+// import "../../../public/images";
+// import "./About.json";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
-import { urlFor, client } from "../../client";
+// import { images } from "../../constants";
+// import { urlFor, client } from "../../client";
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "abouts"] | order(order asc)';
-
-    client.fetch(query).then((data) => {
+    // const query = '*[_type == "abouts"] | order(order asc)';
+    const query = "./About.json";
+    axios.get(query).then(({ data }) => {
+      // console.log(data);
       setAbouts(data);
     });
   }, []);
@@ -19,9 +24,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Continuous <span>Learning</span> is the Minimum
-        <br />
-        Requirement for <span>Success</span> in any Field
+        Enjoying <span>Learning</span> is the Key to <span>Success</span>
       </h2>
 
       <div className="app__profiles">
@@ -33,7 +36,7 @@ const About = () => {
             className="app__profile-item"
             key={about.title + index}
           >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
+            <img src={about.imgUrl} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
@@ -52,3 +55,7 @@ export default AppWrap(
   "about",
   "app__whitebg"
 );
+// about.json
+// imgUrl will be links to image
+// just pass about.imgUrl
+// put images in public folder if doesnt work from assets

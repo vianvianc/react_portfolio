@@ -1,0 +1,43 @@
+[
+  {
+    "name": "React ",
+    "icon": "./images/react.png"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "./images/nodeJS.png"
+  },
+  {
+    "name": "Docker",
+    "icon": "./images/docker.png"
+  },
+  {
+    "name": "Git",
+    "icon": "./images/git.png"
+  },
+  {
+    "name": "GraphQL",
+    "icon": "./images/graphql.png"
+  },
+  {
+    "name": "HTML",
+    "icon": "./images/html.png"
+  },
+  {
+    "name": "Javascript",
+    "icon": "./images/javascript.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "./images/mongoDB.png"
+  },
+  {
+    "name": "mySQL",
+    "icon": "./images/mySQL.png"
+  },
+  {
+    "name": "nextJS",
+    "icon": "./images/nextJS.png"
+  }
+  
+]

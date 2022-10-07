@@ -43,20 +43,20 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">
-        Take a coffee & <span>chat</span> with me
+        Let's <span>chat</span>!
       </h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:zhenyu_chan@hotmail.com" className="p-text">
-            zhenyu_chan@hotmail.com
+          <a href="mailto:vianc@mail.com" className="p-text">
+            vianc@mail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+6 (5) 90096297" className="p-text">
-            +65 9009 6297
+          <a href="tel:+1 (415) 237-7800" className="p-text">
+            +1 (415) 237-7800
           </a>
         </div>
       </div>
@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
       ) : (
         <div>
-          <h3 className="head-text">Thank you for getting in touch!</h3>
+          <h3 className="head-text">Thank's for getting in touch!</h3>
         </div>
       )}
     </>
