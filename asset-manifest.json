@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b10df176.css",
-    "main.js": "/react-gh-pages/static/js/main.7dcddbbc.js",
-    "static/media/profile.png": "/react-gh-pages/static/media/profile.89dce5bb6ac63d336a59.png",
-    "static/media/bgIMG.png": "/react-gh-pages/static/media/bgIMG.c39101e520e2997fc6d4.png",
-    "static/media/bgWhite.png": "/react-gh-pages/static/media/bgWhite.79658cadae50b3b16ee5.png",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.c38562f715f1a4026f12.png",
-    "static/media/mobile.png": "/react-gh-pages/static/media/mobile.145d9ce0157a56f8fcd8.png",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/circle.svg": "/react-gh-pages/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.b10df176.css.map": "/react-gh-pages/static/css/main.b10df176.css.map",
-    "main.7dcddbbc.js.map": "/react-gh-pages/static/js/main.7dcddbbc.js.map"
+    "main.css": "/react_portfolio/static/css/main.af2e0643.css",
+    "main.js": "/react_portfolio/static/js/main.1beaf311.js",
+    "static/media/profile.png": "/react_portfolio/static/media/profile.89dce5bb6ac63d336a59.png",
+    "static/media/bgIMG.png": "/react_portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
+    "static/media/bgWhite.png": "/react_portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/logo.png": "/react_portfolio/static/media/logo.c38562f715f1a4026f12.png",
+    "static/media/mobile.png": "/react_portfolio/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "index.html": "/react_portfolio/index.html",
+    "static/media/circle.svg": "/react_portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.af2e0643.css.map": "/react_portfolio/static/css/main.af2e0643.css.map",
+    "main.1beaf311.js.map": "/react_portfolio/static/js/main.1beaf311.js.map"
   },
   "entrypoints": [
-    "static/css/main.b10df176.css",
-    "static/js/main.7dcddbbc.js"
+    "static/css/main.af2e0643.css",
+    "static/js/main.1beaf311.js"
   ]
 }
