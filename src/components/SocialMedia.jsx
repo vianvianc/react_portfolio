@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsWhatsapp, BsYoutube, BsInstagram } from "react-icons/bs";
 
 const SocialMedia = () => (
   <div className="app__social">
@@ -22,6 +22,24 @@ const SocialMedia = () => (
     <div>
       <a href="https://wa.link/8ptjwz" target="_blank" rel="noreferrer">
         <BsWhatsapp />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://www.youtube.com/channel/UCowJGILuChHjogQnxL1jOTQ"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <BsYoutube />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://www.instagram.com/namevian/?hl=en"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <BsInstagram />
       </a>
     </div>
   </div>

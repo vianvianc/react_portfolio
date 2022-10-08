@@ -16,5 +16,11 @@
     "_type": "abouts",
     "description": "I can assign tasks, communicate with clients, manage time, connect people and parts of project together. ",
     "imgUrl": "./images/project_leader.png"
+  },
+  {
+    "title": "Rock Climber",
+    "_type": "abouts",
+    "description": "I am an avid, expert, multi-disciplinary rock climber. I've been climbing for 13 years and in 8 countries. ",
+    "imgUrl": "./images/bigwall.png"
   }
 ]
