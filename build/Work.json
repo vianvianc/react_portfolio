@@ -1,0 +1,38 @@
+[
+  {
+    "imgUrl": "./images/weather.png",
+    "title": "Weather Dashboard",
+    "projectLink": "https://vianvianc.github.io/weather-api/",
+    "codeLink": "https://github.com/vianvianc/weather-api",
+    "description": "This app allows users to see five day weather data based on their current or any location using a weather API. It also includes a UV index and uses local storage to store recent city searches. It uses Jquery and AJAX to generate dynamically updated HTML and CSS.",
+    "tags": ["JQuery/AJAX", "All"],
+    "name": "weather"
+  },
+  {
+    "imgUrl": "./images/hobby_forum.png",
+    "title": "Hobby Forum",
+    "projectLink": "https://damp-reaches-02576.herokuapp.com/",
+    "codeLink": "https://github.com/vianvianc/hobby-forum",
+    "description": "Hobby Spot is a full stack discussion forum application. Users are able to create an account, login, and use those credentials to view and create posts. It uses bcrypt, expressJS, mySQL, handlebars and sequelize",
+    "tags": ["Web App", "All"],
+    "name": "hobby"
+  },
+  {
+    "imgUrl": "./images/farmBoard.png",
+    "title": "FarmBoard",
+    "projectLink": "https://thefarmboard.com/",
+    "codeLink": "https://github.com/vianvianc",
+    "description": "FarmBoard is a web app designed to connect local farmers to clients directly by providing them an availabliltiy web link that they can post on their website or facebook. It has dynamically generated HTML and uses MongoDB.",
+    "tags": ["Web App", "All"],
+    "name": "farmBoard"
+  },
+  {
+    "imgUrl": "./images/inner_light.png",
+    "title": "Inner Light Ministries",
+    "projectLink": "https://www.innerlightministries.com/",
+    "codeLink": "https://github.com/vianvianc",
+    "description": "Inner Light Ministries is an Omnifaith outreach ministry dedicated to spiritual transformation. The web app was built with WordPress.",
+    "tags": ["Web App", "All"],
+    "name": "light"
+  }
+]

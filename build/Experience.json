@@ -1,0 +1,38 @@
+[
+  {
+    "year": "2022",
+    "works": [
+      {
+        "name": "Web Developer",
+        "company": "theFarmBoard",
+        "desc": "Tested software and built web application for theFarmBoard.com. Maintained database and co-designed app."
+      },
+      {
+        "name": "Bootcamp Student",
+        "company": "University of Denver",
+        "desc": "MERN Full Stack Full-Time Web Development Bootcamp"
+      }
+    ]
+  },
+
+  {
+    "year": "2020",
+    "works": [
+      {
+        "name": "Web Developer, Project Manager",
+        "company": "Precision GPS Research",
+        "desc": "Tested software and built web application for innerlightministries.com. Communicated with developers in Bangladesh and client in California to import all data from old website to new one, using WordPress."
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "works": [
+      {
+        "name": "Bootcamp Student",
+        "company": "Central New Mexico College Ingenuity ",
+        "desc": "Full Stack Full-Time Web Development Bootcamp"
+      }
+    ]
+  }
+]
